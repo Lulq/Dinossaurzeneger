@@ -69,7 +69,7 @@ function createCactus() {
         }else if (cactusPosition > 0 && cactusPosition < 60 && position < 60){
             //quando o cacto bate no dinossauro
             clearInterval(leftInterval);
-            document.body.innerHTML= '<h1 class="game-over">Fim de Jogo</h1></br><h3 class="continue">Tente outra vez</h3>';
+            document.body.innerHTML= '<h1 class="game-over">Fim de Jogo</h1></br><h3 class="continue">Aperte "ESPAÇO" para tentar outra vez</h3>';
             dead = true;
             fxdeath.play();
             
