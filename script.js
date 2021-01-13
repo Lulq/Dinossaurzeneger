@@ -72,8 +72,7 @@ function createCactus() {
             document.body.innerHTML= '<h1 class="game-over">Fim de Jogo</h1></br><h3 class="continue">Aperte "ESPAÇO" para tentar outra vez</h3>';
             dead = true;
             fxdeath.play();
-            
-                                
+                                        
         }else {
             cactusPosition -= 10;
             cactus.style.left = cactusPosition +'px';
