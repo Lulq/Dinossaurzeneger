@@ -2,8 +2,8 @@ body {
     background: #fafafa;
 }
 .dino {
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 200px;
     background-image: url('dino.gif');
     position: absolute;
     bottom: 0; /*default 0*/
@@ -12,8 +12,8 @@ body {
 
 .cactus {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 68px;
+    height: 68px;
     bottom: 0;
     background-image: url('cactus.png');
 }
